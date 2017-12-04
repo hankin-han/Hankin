@@ -1,0 +1,232 @@
+body {
+    position: relative;
+    min-height: 100%;
+    color: #101010;
+    width: 100%;
+    /*font-family:"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";*/
+    /*font-family:"Microsoft JhengHei","Apple LiGothic Medium","Microsoft YaHei","微软雅黑","Arial","sans-serif";*/
+    font-family:"Hiragino Sans GB","Century Gothic","system", "Arial", "Verdana", "Tahoma";
+}
+html,body {
+    height: 100%;
+    /*overflow:hidden;*/
+}
+body {
+    margin: 0
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.row,.row-flat {
+    width: 68.75rem;
+    max-width: 100%;
+    margin: 0 auto
+}
+.six,.row .six,.row-flat .six {
+    width: 100%
+}
+.column,.columns {
+    margin:0 auto;
+    min-height: 1px;
+    padding: 0 10px;
+    position: relative
+}
+.app-wrapper {
+    border:1px solid #E0E0E0;
+    background: #fcfcfc;
+    box-shadow: 0 0 1rem rgba(204,204,204,0.5);
+    margin: 2rem 0;
+    border-radius:5px;
+    overflow:hidden;
+}
+.app-navigation,.app-main-aside,.app-main-inner {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.about_bg{
+    min-height:250px;
+}
+
+.avatar{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    text-align:center;
+    width: 200px;
+    margin-left: -100px;
+
+}
+
+.avatar_img{
+    display:block;
+    width:100px;
+    margin:0 auto;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.50);
+}
+
+.name{
+    display:block;
+    font-size:22px;
+    line-height:2;
+    color:#fff;
+    text-shadow:0 0 4px rgba(0,0,0,0.5);
+    text-align:center;
+}
+
+.info{
+    display:block;
+    font-size:12px;
+    color:#fff;
+    text-shadow:0 0 4px rgba(0,0,0,0.5);
+    text-align:center;
+}
+
+.link {
+    position: absolute;
+    bottom: -35px;
+    padding:0;
+    left: 50%;
+    text-align:center;
+    width:300px;
+    margin-left: -150px;
+}
+
+.link li{
+    display:inline-block;
+    float:left;
+    padding:0 10px;
+}
+
+.link li a{
+
+}
+
+.link li a img{
+    width:40px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+}
+
+
+.about-image {
+    margin-bottom: 6rem;
+    position: relative
+}
+img,object,embed {
+    max-width: 100%;
+    height: auto
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic
+}
+img {
+    border: 0
+}
+.about-image-profile {
+
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid white
+}
+
+.about{
+    padding:0 0 50px;
+}
+
+.post-article {
+    padding: 0rem 5rem 0rem;
+    color: #777777;
+    font-size: 0.9rem;
+    line-height: 1.8
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block
+}
+.footer {
+    position: relative;
+    background: #f6f6f6;
+    color: #777777;
+    border-top: 1px solid #E2E2E2;
+    font-size: 0.8rem;
+    overflow: hidden;
+    padding: 0px 10px;
+    height: 50px;
+}
+
+.footer_inter{
+}
+
+.footer article{
+    padding:15px 20px;
+    float:right;
+}
+
+.zhifubao{
+    float:left;
+    padding:10px 20px 5px;
+    border-right: 1px solid #E2E2E2;
+}
+
+.zhifubao:hover{
+    background:#ECECEC;
+}
+
+.footer article a {
+    border-bottom: 1px solid rgba(119,119,119,0.2)
+}
+
+a {
+    color: #101010;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer
+}
+.post-article a {
+    border-bottom: 1px solid #d9d9d9
+}
+
+.post-article p {
+    margin: 1em 0
+}
+.post-article p {
+    line-height: 1.8
+}
+ul{
+    padding-left:20px;
+}
+
+@media (max-width: 768px) {
+    .six,.row .six,.row-flat .six {
+        width: 100%;
+    }
+    .post-article{
+        padding:0rem 1rem 0rem;
+    }
+    .app-wrapper{
+        margin:.5rem 0;
+    }
+}
