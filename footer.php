@@ -18,7 +18,7 @@ $this->footer(); ?>
 <script src="<?php $this->options->themeUrl('js/contabs.min.js')?>"></script>
 <script src="<?php $this->options->themeUrl('js/plugins/pace/pace.min.js')?>"></script>
 <!-- 统计代码-->
-<script><?php $this->options->analysis(); ?></script>
+<?php $this->options->analysis(); ?>
 <!-- 统计代码-->
 </body>
 </html>

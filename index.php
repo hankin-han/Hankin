@@ -93,7 +93,7 @@ $this->need('header.php');
                         <div class="form-group">
                             <input type="text" placeholder="请输入内容 …" class="form-control" name="s" id="input-search"
                                    style="width:130px;float: left">
-                            <a href="" class="J_menuItem btn-sm btn-success navbar-minimalize"
+                            <a href="" class="J_menuItem btn-sm btn-success"
                                id="btn-search"
                                style="display:inline-block;float: left;margin-top: 15px;">查询</a>
                         </div>
